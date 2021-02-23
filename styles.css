@@ -4770,6 +4770,9 @@
    background-clip: border-box;
    border: 1px solid rgba(223, 215, 202, 0.75);
    border-radius: 0.25rem;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
  }
  
  .card > hr {
@@ -10470,3 +10473,17 @@
    display: flex;
    justify-content: center;
  }
+
+ .img-sm {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+}
+
+#index {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
